@@ -1,40 +1,40 @@
 input_polygons:
   - datasets: 
-      - bgt/bgt_waterdeel.sqlite
-      - bgt/bgt_ondersteunendwaterdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_waterdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_ondersteunendwaterdeel.sqlite
     uniqueid: gml_id
     lifting: Water
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_onbegroeidterreindeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_onbegroeidterreindeel.sqlite
     uniqueid: gml_id
     lifting: Terrain
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_wegdeel.sqlite
-      - bgt/bgt_ondersteunendwegdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_wegdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_ondersteunendwegdeel.sqlite
     uniqueid: gml_id
     lifting: Road
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_pand.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_pand.sqlite
     uniqueid: gml_id
     lifting: Building
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_begroeidterreindeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_begroeidterreindeel.sqlite
     uniqueid: gml_id
     lifting: Forest
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_scheiding.sqlite
-      - bgt/bgt_kunstwerkdeel.sqlite
-      - bgt/bgt_overigbouwwerk.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_scheiding.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_kunstwerkdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_overigbouwwerk.sqlite
     uniqueid: gml_id
     lifting: Separation
     height_field: relatievehoogteligging
   - datasets: 
-      - bgt/bgt_overbruggingsdeel.sqlite
+      - c:/gebruikers/stan_/data/sqlite/bgt_overbruggingsdeel.sqlite
     uniqueid: gml_id
     lifting: Bridge/Overpass
     height_field: relatievehoogteligging
@@ -60,8 +60,7 @@ lifting_options:
 
 input_elevation:
   - datasets:
-      - ahn3/ahn3_cropped_1.laz
-      - ahn3/ahn3_cropped_2.laz
+      - c:/gebruikers/stan_/data/nieuwstraat.las
     omit_LAS_classes:
       - 1 # unclassified
     thinning: 0
